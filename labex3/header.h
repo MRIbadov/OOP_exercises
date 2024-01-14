@@ -8,8 +8,7 @@
 static int count = 0;
 
 class Figure{
-    //We have problem for creating the virtual destructor
-    // Xeta 1 Base class sen public elemelisen;
+  
 public:
      virtual ~Figure() = default;
     virtual double getArea() const = 0;
