@@ -4,8 +4,8 @@
 
 
 int main() {
-    Cat myCat( "Red", 12.1,"akif", 21.2, 17.1);
-    Whale myWhale( "Blue", 12.1, "akif", 21.2, 17.1);
+    Cat myCat( "Red", 12.1,"Rafiq", 21.2, 17.1);
+    Whale myWhale( "Blue", 12.1, "MansurYAbas", 21.2, 17.1);
 
     myCat.utterVoice();
     std::cout << "Color of the cat: " << myCat.getColor() << std::endl;
